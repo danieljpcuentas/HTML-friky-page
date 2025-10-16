@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 750px;
+    border: 2px solid red;
+}
+
+/* HEADER */
+header {
+    height: 250px;
+    display: flex;
+}
+
+.header-left {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 125px;
+    background-color: #f8d86e;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buscador {
+    height: 125px;
+    background-color: red;
+    border: 1px solid #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner {
+    flex: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* NAV */
+nav {
+    height: 50px;
+    background-color: #005eb8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    height: 400px;
+}
+
+aside.izquierda {
+    width: 150px;
+    background-color: #00a651;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.contenido {
+    width: 500px;
+    background-color: #fff100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+aside.derecha {
+    width: 100px;
+    background-color: #00a651;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    height: 50px;
+    background-color: #009fe3;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    border-top: 1px solid #000;
+}
