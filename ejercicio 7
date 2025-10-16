@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura Semántica HTML5</title>
+    <style>
+        /* Estilos básicos para visualizar el diseño */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        main {
+            display: flex;
+            background-color: lightblue;
+        }
+
+        section {
+            flex: 3;
+            padding: 20px;
+        }
+
+        article {
+            background-color: orange;
+            margin: 10px 0;
+            padding: 15px;
+        }
+
+        aside {
+            flex: 1;
+            background-color: limegreen;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: purple;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Encabezado Principal</h1>
+    </header>
+
+    <nav>
+        <p>Menú de Navegación</p>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <h2>Artículo 1</h2>
+                <p>Contenido del primer artículo.</p>
+            </article>
+
+            <article>
+                <h2>Artículo 2</h2>
+                <p>Contenido del segundo artículo.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Barra Lateral</h3>
+            <p>Contenido adicional o publicidad.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 Tu Nombre - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
